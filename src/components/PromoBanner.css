@@ -1,0 +1,102 @@
+/* src/components/PromoBanner.css */
+
+.promo-banner {
+  /* background-color: #111; */
+  color: #000;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.promo-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.highlightt {
+  background-color: #00cc44;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.ctaa-button {
+  background: linear-gradient(to right, #ff7f50, #ff1493);
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.ctaa-button:hover {
+  background-color: #cc2900;
+}
+
+.price {
+  display: block;
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.register-text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.highlight-date,
+.highlight-price {
+  color: #ff3300;
+  font-weight: bold;
+}
+
+/* Responsive Design for Tablets */
+@media screen and (max-width: 768px) {
+  .main-text {
+    font-size: 20px;
+  }
+
+  .ctaa-button {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+
+  .register-text {
+    font-size: 14px;
+  }
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 480px) {
+  .promo-banner {
+    padding: 30px 15px;
+  }
+  .promo-text {
+    font-size: 20px;
+  }
+
+  .main-text {
+    font-size: 20px;
+  }
+
+  .ctaa-button {
+    font-size: 16px;
+    /* padding: 10px 20px; */
+    width: 350px;
+  }
+
+  .register-text {
+    font-size: 13px;
+  }
+}

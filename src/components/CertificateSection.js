@@ -18,15 +18,12 @@ const CertificateSection = () => {
           <li>✅ Shareable on LinkedIn and with employers</li>
           <li>✅ Useful to enhance professional credibility</li>
         </ul>
-        <button className="cta-button">
+        <button className="ctay-button">
           GET INSTANT ACCESS <span className="old-price">₹6999</span> ₹1499
         </button>
       </div>
       <div className="certificate-image">
-        <img
-          src="https://courses.ijaipuria.com/wp-content/uploads/2024/04/fbinsta_certificate-2.webp"
-          alt="Certificate of Completion"
-        />
+        <img src="/images/certificate.png" alt="Certificate of Completion" />
       </div>
     </div>
   );

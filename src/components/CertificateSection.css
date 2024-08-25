@@ -41,8 +41,8 @@
   color: #f1f2f6;
 }
 
-.cta-button {
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+.ctay-button {
+  background: linear-gradient(to right, #ff7f50, #ff1493);
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -51,11 +51,11 @@
   transition: transform 0.3s ease;
 }
 
-.cta-button:hover {
+.ctay-button:hover {
   transform: scale(1.05);
 }
 
-.cta-button .old-price {
+.ctay-button .old-price {
   text-decoration: line-through;
   margin-right: 0.5rem;
 }
@@ -88,7 +88,7 @@
     font-size: 2rem;
   }
 
-  .cta-button {
+  .ctay-button {
     font-size: 0.9rem;
     padding: 0.75rem 1.5rem;
   }

@@ -6,15 +6,17 @@ const HeaderPage = () => {
     <div className="main-body">
       <div className="container">
         <header className="header">
-          <h1 className="brand">iJaipuria</h1>
+          <h1 className="brand">SkilltoLearn</h1>
           <button className="cta-button">Get Instant Access</button>
         </header>
 
         <div className="content">
           <div className="text-content">
-            <h2 className="highlight">Increase Leads & Sales by 10X</h2>
+            <h2 className="highlighti">Increase Leads & Sales by 10X</h2>
             <h1 className="main-heading">
-              Master Advanced Facebook & Instagram Ads Strategies
+              Master Advanced{" "}
+              <span style={{ color: "#ff1493" }}>Facebook & Instagram Ads</span>{" "}
+              Strategies
             </h1>
             <p className="description">
               Transform Your Career, Unlock High-Paying Jobs, Business Growth,

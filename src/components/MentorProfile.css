@@ -14,7 +14,7 @@
 }
 
 .mentor-info h2 span {
-  color: #00aaff;
+  color: #ff007f;
 }
 
 .mentor-details {
@@ -70,6 +70,8 @@
 
   .mentor-image {
     margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
   }
 
   .mentor-text {
@@ -78,6 +80,7 @@
 
   .mentor-text h3 {
     font-size: 24px;
+    font-weight: 400;
   }
 
   .mentor-text p {
@@ -86,5 +89,6 @@
 
   .mentor-text ul li {
     font-size: 16px;
+    font-weight: 300;
   }
 }

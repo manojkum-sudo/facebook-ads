@@ -44,7 +44,7 @@
   max-width: 600px;
 }
 
-.highlight {
+.highlighti {
   color: #fffa65;
   font-size: 24px;
 }
@@ -146,7 +146,25 @@ ul li {
   }
 
   .cta-button {
-    width: 100%;
+    width: 200px;
     text-align: center;
+  }
+  .highlighti {
+    font-size: 20px;
+  }
+
+  .main-heading {
+    font-size: 40px;
+  }
+  .mentor {
+    padding: 15px 10px;
+  }
+
+  .mentor-info ul li {
+    text-align: start;
+  }
+
+  .mentor-info h3 {
+    font-size: 20px;
   }
 }
