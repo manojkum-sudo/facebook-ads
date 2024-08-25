@@ -1,0 +1,106 @@
+/* CertificateSection.css */
+
+.certificate-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  background-color: #000; /* Black background */
+  color: white; /* White text */
+  padding: 90px 90px;
+}
+
+.certificate-content {
+  max-width: 40%;
+}
+
+.title span {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #00aaff;
+  font-size: 2.5rem;
+  /* Blue color for "Certified" */
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.benefits li {
+  margin-bottom: 0.5rem;
+  color: #f1f2f6;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+}
+
+.cta-button .old-price {
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+/* Image Styling */
+.certificate-image img {
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .certificate-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .certificate-content,
+  .certificate-image {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .certificate-image img {
+    height: 200px;
+    max-width: 100%;
+  }
+
+  .title span {
+    font-size: 2rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .benefits li {
+    text-align: start;
+  }
+
+  .description {
+    text-align: start;
+  }
+  .certificate-section {
+    padding: 10px 30px;
+  }
+}

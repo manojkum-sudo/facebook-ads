@@ -1,0 +1,152 @@
+/* General Styles */
+.main-body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  padding: 10px 0px 100px 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.brand {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #ff7f50, #ff1493);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.highlight {
+  color: #fffa65;
+  font-size: 24px;
+}
+
+.main-heading {
+  font-size: 55px;
+  margin: 20px 0;
+}
+
+.description {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.special-offer {
+  color: #fffa65;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.price-button {
+  background: linear-gradient(to right, #ff7f50, #ff1493);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.video-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.video {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.mentor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+.mentor-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.mentor-info h3 {
+  margin: 0;
+  font-size: 20px;
+  text-align: start;
+}
+
+.mentor-info p {
+  margin: 5px 0;
+  text-align: start;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-content {
+    margin-top: 30px;
+  }
+
+  .price-button {
+    width: 100%;
+  }
+
+  .cta-button {
+    width: 100%;
+    text-align: center;
+  }
+}

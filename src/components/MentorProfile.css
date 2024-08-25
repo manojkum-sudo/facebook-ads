@@ -1,0 +1,90 @@
+/* src/components/MentorProfile.css */
+
+.mentor-profile {
+  background-color: #121212;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.mentor-info h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.mentor-info h2 span {
+  color: #00aaff;
+}
+
+.mentor-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mentor-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 5px solid #00aaff;
+}
+
+.mentor-text {
+  max-width: 500px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.mentor-text h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.mentor-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+.mentor-text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mentor-text ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .mentor-details {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mentor-image {
+    margin-bottom: 20px;
+  }
+
+  .mentor-text {
+    text-align: center;
+  }
+
+  .mentor-text h3 {
+    font-size: 24px;
+  }
+
+  .mentor-text p {
+    font-size: 18px;
+  }
+
+  .mentor-text ul li {
+    font-size: 16px;
+  }
+}
