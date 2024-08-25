@@ -2,7 +2,7 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  background-color: #e91e63;
+  background: linear-gradient(to right, #ff7f50, #ff1493);
   color: white;
   padding: 15px;
   border-radius: 8px;
