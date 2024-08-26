@@ -3,77 +3,60 @@ import "./BonusOffer.css";
 
 const BonusOffer = () => {
   return (
-    <div className="bonuses-container">
-      <h2>
-        Enroll Now to Get Premium Bonuses worth
-        <span style={{ color: "#e91e63" }}>₹25,000</span>
-      </h2>
-      <h4 style={{ fontWeight: 400 }}>
-        We are giving these absolutely free to all our students who enroll in
-        this course.
-      </h4>
-      <div className="bonuses-grid">
-        <div className="bonus-card">
-          <img
-            src="https://courses.ijaipuria.com/wp-content/uploads/2024/04/online-class.png"
-            alt="Gift Icon"
-          />
-          <h4 style={{ color: "#ff1493" }}>Access to 12 Live Sessions</h4>
-
-          <p className="worth-text">
-            Worth
-            <span style={{ textDecoration: "line-through" }}>
-              {" "}
-              ₹12000/-
-            </span>{" "}
-            FREE{" "}
-          </p>
-        </div>
-        <div className="bonus-card">
-          <img
-            src="https://courses.ijaipuria.com/wp-content/uploads/2024/04/online-class.png"
-            alt="Gift Icon"
-          />
-          <h4 style={{ color: "#ff1493" }}>
-            The Seven-Step Successful Campaign Creation Plan
-          </h4>
-
-          <p className="worth-text">
-            Worth{" "}
-            <span style={{ textDecoration: "line-through" }}> ₹5000/-</span>{" "}
-            FREE{" "}
-          </p>
-        </div>
-        <div className="bonus-card">
-          <img
-            src="https://courses.ijaipuria.com/wp-content/uploads/2024/04/accounting.png"
-            alt="Gift Icon"
-          />
-          <h4 style={{ color: "#ff1493" }}>
-            Secret Tools for Successful Marketing Campaign
-          </h4>
-
-          <p className="worth-text">
-            Worth{" "}
-            <span style={{ textDecoration: "line-through" }}>₹2000/-</span> FREE
-          </p>
-        </div>
-
-        <div className="bonus-card">
-          <img
-            src="https://courses.ijaipuria.com/wp-content/uploads/2024/04/videoconference.png"
-            alt="Gift Icon"
-          />
-          <h4 style={{ color: "#ff1493" }}>Access to 12 Workshops</h4>
-
-          <p className="worth-text">
-            Worth{" "}
-            <span style={{ textDecoration: "line-through" }}>₹6000/-</span> FREE
-          </p>
-        </div>
+    <div className="bonuses-wrapper">
+      <div className="bonuses-header">
+        <h2>Register before midnight of 26 Aug 2024</h2>
+        <h3>To Unlock All Bonuses worth Rs 19,000</h3>
       </div>
-      <div style={{ textAlign: "center" }}>
-        <button className="registerBtnToday">ENROLL NOW : ₹ 199</button>
+      <div className="bonuses-container">
+        <div className="bonus-card">
+          <div className="bonus-header">Bonus 1</div>
+          <div className="bonus-body">
+            <img
+              src="/path/to/key-icon.png"
+              alt="Key Icon"
+              className="bonus-icon"
+            />
+            <p>Secret Tools for Successful Marketing Campaign</p>
+            <p className="bonus-value">Worth Rs 5,000</p>
+          </div>
+        </div>
+        <div className="bonus-card">
+          <div className="bonus-header">Bonus 2</div>
+          <div className="bonus-body">
+            <img
+              src="/path/to/ad-icon.png"
+              alt="Ad Icon"
+              className="bonus-icon"
+            />
+            <p>Done for you Ad Creative Template</p>
+            <p className="bonus-value">Worth Rs 7,000</p>
+          </div>
+        </div>
+        <div className="bonus-card">
+          <div className="bonus-header">Bonus 3</div>
+          <div className="bonus-body">
+            <img
+              src="/path/to/facebook-icon.png"
+              alt="Facebook Icon"
+              className="bonus-icon"
+            />
+            <p>Private Facebook Ads MasterMind Community</p>
+            <p className="bonus-value">Worth Rs 4,000</p>
+          </div>
+        </div>
+        <div className="bonus-card">
+          <div className="bonus-header">Bonus 4</div>
+          <div className="bonus-body">
+            <img
+              src="/path/to/checklist-icon.png"
+              alt="Checklist Icon"
+              className="bonus-icon"
+            />
+            <p>My 7 Step Successful Campaign Setup Checklist</p>
+            <p className="bonus-value">Worth Rs 2,000</p>
+          </div>
+        </div>
       </div>
     </div>
   );
