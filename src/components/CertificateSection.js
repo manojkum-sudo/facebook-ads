@@ -6,8 +6,7 @@ const CertificateSection = () => {
     <div className="certificate-section">
       <div className="certificate-content">
         <h1 className="title">
-          <span> Get </span>
-          <span className="highlight">Certified</span>
+          <span className="highlight"> Get Certified</span>
         </h1>
         <p className="description">
           Complete all modules successfully and receive an Advanced certificate.

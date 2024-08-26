@@ -9,15 +9,16 @@
 }
 
 .testimonial-card {
-  background-color: #1e1e2a;
+  /* background-color: #1e1e2a; */
   border-radius: 10px;
   padding: 20px;
-  color: white;
+  color: #000;
   margin: 15px;
   max-width: 350px;
   min-width: 280px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
+  border: 1px solid #ff1493;
 }
 
 .header {
@@ -45,7 +46,7 @@
 
 .date {
   font-size: 14px;
-  color: #ccc;
+  color: #000;
 }
 
 .rating {
@@ -54,7 +55,7 @@
 }
 
 .title {
-  color: #f39c12;
+  color: #000;
   font-size: 18px;
   margin-bottom: 10px;
 }
