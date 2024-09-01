@@ -31,4 +31,8 @@
   .topics-grid {
     grid-template-columns: 1fr;
   }
+
+  .learning-container h1 {
+    font-size: 1.5rem;
+  }
 }

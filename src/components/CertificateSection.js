@@ -4,7 +4,7 @@ import "./CertificateSection.css"; // Import your CSS file here
 const CertificateSection = () => {
   return (
     <div className="certification-container">
-      <h1 className="titlee">Become A Certified Google Ads Expert</h1>
+      <h1 className="titlee">Become A Certified Facebook Ads Expert</h1>
       <p className="subtitle">
         Upon successfully completing the course, you'll receive a certification
         from Skill to learn, a prestigious institution known for its
@@ -19,7 +19,7 @@ const CertificateSection = () => {
         />
       </div>
       <p className="cta-text">
-        SEIZE THE OPPORTUNITY! ELEVATE YOUR SKILLS WITH ADVANCED GOOGLE ADS
+        SEIZE THE OPPORTUNITY! ELEVATE YOUR SKILLS WITH ADVANCED FACEBOOK ADS
         MASTERY!
       </p>
       <button className="cta-button">Enroll Now for ₹199!</button>

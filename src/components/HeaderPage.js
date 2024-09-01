@@ -5,14 +5,10 @@ const HeaderPage = () => {
   return (
     <div className="course-ad-container">
       <header className="headerr">
-        <p className="course-imagee">Advanced Google Ads Using AI Tools</p>
+        <p className="course-imagee">Increase Leads & Sales by 10X</p>
         <h1>
-          Get{" "}
-          <span className="highlightw">
-            10X Website Traffic, Leads and Sales
-          </span>{" "}
-          for Your Business and Unlock Your Career{" "}
-          <span style={{ color: "#fffa65" }}>Growth!</span>
+          Master <span className="highlightw">Advanced Facebook</span> &
+          Instagram Ads <span style={{ color: "#fffa65" }}>Strategies</span>
         </h1>
       </header>
       <section className="video-section">
@@ -37,43 +33,43 @@ const HeaderPage = () => {
         </div>
       </section>
       <section className="pricing-section">
-        <h2>Lifetime Access & Updates</h2>
+        <h2>
+          Transform Your Career, Unlock High-Paying Jobs, Business Growth, or
+          Freelance Success
+        </h2>
         <button className="pricing-button">Get Instant Access At ₹199!</button>
       </section>
       <section className="features-section">
         <ul>
           <li style={{ color: "#fffa65" }}>
-            ✅ No Prior Marketing Or Google Ads Knowledge Required.
+            ✅ No Prior Marketing or Facebook & Instagram Ads Knowledge
+            required.
           </li>
           <li>
-            ✅{" "}
-            <span style={{ color: "#fff" }}>
-              Learn How To Run Google Ads The Expert Way
-            </span>
-            —Not Just Boosting Posts.
+            ✅ <span style={{ color: "#fff" }}>Increase your</span>
+            E-Commerce store ROI by 7x with proven ad strategies
           </li>
           <li>
-            ✅ Increase Your Ecommerce Store's ROI{" "}
-            <span style={{ color: "#fff" }}>
-              By 7x With Proven Ad Strategies.
-            </span>
+            ✅ Learn how to run Facebook and Instagram ads the Expert way,
+            <span style={{ color: "#fff" }}>not just Boost Posts</span>
           </li>
           <li>
-            ✅ Generate High-Quality, Convertible Leads{" "}
+            ✅ Generate{" "}
             <span style={{ color: "#fff" }}>
-              For Both B2B And B2C Businesses.
+              high-quality & convertible leads for B2B & B2C business at Scale
             </span>
           </li>
           <li>
-            ✅ Quickly Transition Your Business From Offline To{" "}
+            ✅ Take your business{" "}
             <span style={{ color: "#fff" }}>
-              Online And Attract Customers From Around The World.
+              offline to online quickly & get customers from all around the
+              world
             </span>
           </li>
           <li>
-            ✅ Get Mentored By A Google Ads Expert Who Has{" "}
+            ✅ Get mentored by a Facebook & Instagram Ads Expert who has{" "}
             <span style={{ color: "#fff" }}>
-              Managed Over Inr 100 Cr In Ad Spend.
+              managed more than INR 20 Cr in Ad spend
             </span>
           </li>
         </ul>

@@ -12,12 +12,13 @@ const WebinarText = () => {
     <div className="container">
       <h1 className="main-heading">WHAT IF WE TELL YOU...</h1>
       <p className="sub-heading">
-        Learn how to set up and run profitable Google Ads to sell your products
-        or services online, without the need to hire expensive freelancers or
-        agencies, and avoid spending a fortune on trial and error.
+        Learn how to set up and run profitable Facebook Ads to sell your
+        products or services online, without the need to hire expensive
+        freelancers or agencies, and avoid spending a fortune on trial and
+        error.
       </p>
       <button className="cta-button">
-        Join the Advanced Google Ads Masterclass Now
+        Join the Advanced Facebook Ads Masterclass Now
       </button>
 
       <h2 className="learn-heading">HERE IS WHAT YOU ARE GOING TO LEARN</h2>
@@ -29,7 +30,7 @@ const WebinarText = () => {
             size={40}
           />
           <p>
-            <span>Learn to Use Google Ads </span> <br /> to 3X Your Business
+            <span>Learn to Use Facebook Ads </span> <br /> to 3X Your Business
             Profit
           </p>
         </div>
@@ -39,8 +40,8 @@ const WebinarText = () => {
             style={{ marginRight: 10, color: "#3498db" }}
           />
           <p>
-            <span> Learn Google Ads</span> <br /> from EX Google & IIM Kozhikode
-            Alumni with over 8 years of exp running Google ads
+            <span> Learn Facebook Ads</span> <br /> from EX Google & IIM
+            Kozhikode Alumni with over 8 years of exp running Facebook ads
           </p>
         </div>
         <div className="card">
@@ -56,8 +57,8 @@ const WebinarText = () => {
             style={{ marginRight: 10, color: "#3498db" }}
           />
           <p>
-            <span>Use Google Ads </span> <br /> to Achieve High Returns on Your
-            Investments
+            <span>Use Facebook Ads </span> <br /> to Achieve High Returns on
+            Your Investments
           </p>
         </div>
       </div>

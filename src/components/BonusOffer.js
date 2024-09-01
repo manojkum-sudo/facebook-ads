@@ -34,7 +34,7 @@ const BonusOffer = () => {
               style={{ color: "#2ecc71" }}
               className="bonus-icon"
             />
-            <p>10 Foolproof Copywriting Tips for Google Ads</p>
+            <p>10 Foolproof Copywriting Tips for Facebook Ads</p>
           </div>
         </div>
         <div className="bonus-card">
@@ -45,7 +45,7 @@ const BonusOffer = () => {
               style={{ color: "#2ecc71" }}
               className="bonus-icon"
             />
-            <p>10 Secret Hacks to 10X Your Google Ads ROI</p>
+            <p>10 Secret Hacks to 10X Your Facebook Ads ROI</p>
           </div>
         </div>
         <div className="bonus-card">
@@ -56,7 +56,7 @@ const BonusOffer = () => {
               style={{ color: "#2ecc71" }}
               className="bonus-icon"
             />
-            <p>Step-by-Step Google Ads Launch Checklist</p>
+            <p>Step-by-Step Facebook Ads Launch Checklist</p>
           </div>
         </div>
       </div>

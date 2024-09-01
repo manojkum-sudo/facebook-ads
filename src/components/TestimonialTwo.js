@@ -6,7 +6,7 @@ import "./TestimonialTwo.css";
 const TestimonialTwo = ({ username, comment, likes, replies }) => {
   return (
     <div>
-      <h2 style={{ textAlign: "center" }}>What Are People Saying</h2>
+      <h2 style={{ textAlign: "center" }}>Trusted by 8000+ Happy Learners</h2>
 
       <div className="testimonial-container">
         <div className="testimonial-card">
@@ -24,10 +24,10 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
           <div className="rating">⭐⭐⭐⭐⭐</div>
           <h3 className="title">I truely love this course.</h3>
           <p className="comment">
-            This course is ideal for anyone new to video editing. What I
+            This course is ideal for anyone new to facebook ads. What I
             appreciated the most was the focus on troubleshooting, which really
             helped me as a beginner to overcome challenges that might arise
-            during the editing process.
+            during the facebook ads process.
           </p>
         </div>
 
@@ -47,8 +47,8 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
           <h3 className="title">I even recommend this course to everyone..</h3>
           <p className="comment">
             I’m a beginner and found this course highly engaging. It taught me
-            fresh approaches to creativity in the editing field. I’m excited to
-            apply the skills I’ve gained and would definitely recommend this
+            fresh approaches to creativity in the strategies field. I’m excited
+            to apply the skills I’ve gained and would definitely recommend this
             course to other beginners looking to grow their abilities.
           </p>
         </div>
@@ -71,7 +71,7 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
             Each topic in this course is explained thoroughly, with demos for
             better understanding. It’s simple to follow and clears up any
             confusion or doubts. I'm grateful for this course, especially for
-            beginners eager to learn video editing.
+            beginners eager to learn facebook ads.
           </p>
         </div>
       </div>
