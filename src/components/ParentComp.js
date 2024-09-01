@@ -14,6 +14,7 @@ import PromoBanner from "./PromoBanner";
 import NotificationPopup from "./NotificationPopup";
 import { peopleData } from "./constants";
 import "./ParentComp.css";
+import WebinarText from "./WebinarText";
 
 const ParentComp = () => {
   const [showOfferSection, setShowOfferSection] = useState(false);
@@ -70,12 +71,15 @@ const ParentComp = () => {
       <PromoText />
       <Module />
       <WebinarInfo />
+      <WebinarText />
       <CertificateSection />
+
       <TestimonialTwo />
       <MentorProfile />
       <BonusOffer />
-      <FAQSection />
       <PromoBanner />
+      <FAQSection />
+
       <Footer />
 
       {showOfferSection && (

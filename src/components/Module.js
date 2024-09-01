@@ -5,9 +5,7 @@ const CourseModules = () => {
   return (
     <div className="card-body">
       <div className="course-content">
-        <h2 className="course-title">
-          What you'll <span>learn</span> in this course?
-        </h2>
+        <h2 className="course-title">What you'll learn in this course?</h2>
         <div className="modules-container">
           <div className="module">
             <h3>

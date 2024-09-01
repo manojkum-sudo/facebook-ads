@@ -1,106 +1,131 @@
-/* CertificateSection.css */
-
-.certificate-section {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 2rem;
-  background-color: #000; /* Black background */
-  color: white; /* White text */
-  padding: 90px 90px;
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-.certificate-content {
-  max-width: 40%;
-}
-
-.title span {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.highlight {
-  color: #00aaff;
-  font-size: 2.5rem;
-  /* Blue color for "Certified" */
-}
-
-.description {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-}
-
-.benefits {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 2rem;
-}
-
-.benefits li {
-  margin-bottom: 0.5rem;
-  color: #f1f2f6;
-}
-
-.ctay-button {
-  background: linear-gradient(to right, #ff7f50, #ff1493);
+.certification-container {
+  text-align: center;
+  background-color: #142850;
   color: white;
-  padding: 1rem 2rem;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title */
+.titlee {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #fffa65;
+}
+
+/* Certificate Image */
+.certificate-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.certificate-image {
+  max-width: 60%;
+  height: auto;
+  border: 5px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* CTA Text */
+.cta-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #ff6819;
+  color: white;
+  padding: 15px 40px;
   border: none;
-  font-size: 1rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  animation: shake 0.9s infinite;
+  animation-delay: 2s;
 }
 
-.ctay-button:hover {
-  transform: scale(1.05);
+.cta-button:hover {
+  background-color: #e65100;
 }
 
-.ctay-button .old-price {
-  text-decoration: line-through;
-  margin-right: 0.5rem;
-}
-
-/* Image Styling */
-.certificate-image img {
-  max-width: 100%;
-  height: 400px;
-}
-
-/* Responsive Styling */
+/* Responsive Design */
 @media (max-width: 768px) {
-  .certificate-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .certificate-content,
-  .certificate-image {
-    max-width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  .certificate-image img {
-    height: 200px;
-    max-width: 100%;
-  }
-
-  .title span {
+  .titlee {
     font-size: 2rem;
   }
 
-  .ctay-button {
-    font-size: 0.9rem;
-    padding: 0.75rem 1.5rem;
+  .subtitle {
+    font-size: 1rem;
+    padding: 0 10px;
   }
 
-  .benefits li {
-    text-align: start;
+  .certificate-image {
+    max-width: 80%;
   }
 
-  .description {
-    text-align: start;
+  .cta-button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
   }
-  .certificate-section {
-    padding: 10px 30px;
+}
+
+@media (max-width: 480px) {
+  .titlee {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .certificate-image {
+    max-width: 90%;
+  }
+
+  .cta-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+
+  .cta-text {
+    font-size: 1.2rem;
   }
 }

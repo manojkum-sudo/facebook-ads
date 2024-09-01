@@ -1,177 +1,109 @@
-/* General Styles */
-.main-body {
+.course-ad-container {
   font-family: Arial, sans-serif;
-  background-color: #121212;
-  color: #fff;
-  padding: 10px 0px 100px 0px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+  color: #ffffff;
+  background-color: #16273a;
+  text-align: center;
   padding: 20px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-}
-
-.brand {
-  font-size: 24px;
-  color: #ffffff;
-}
-
-.cta-button {
-  background: linear-gradient(to right, #ff7f50, #ff1493);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 25px;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.text-content {
-  max-width: 600px;
-}
-
-.highlighti {
-  color: #fffa65;
-  font-size: 24px;
-}
-
-.main-heading {
-  font-size: 55px;
-  margin: 20px 0;
-}
-
-.description {
-  margin: 20px 0;
-  font-size: 18px;
-}
-
-.special-offer {
-  color: #fffa65;
-  font-weight: bold;
+.headerr {
   margin-bottom: 20px;
-  margin-top: 20px;
 }
 
-.price-button {
-  background: linear-gradient(to right, #ff7f50, #ff1493);
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  border-radius: 25px;
-  font-size: 18px;
-  margin-top: 20px;
+.highlightw {
+  color: #fffa65;
 }
 
-.strikethrough {
-  text-decoration: line-through;
+.video-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.video-content {
+.video-container {
+  position: relative;
+}
+
+.course-imagee {
+  max-width: 100%;
+}
+
+.video-preview {
+  width: 100%;
   max-width: 600px;
+
+  margin-top: 10px;
+}
+
+.instructor-info {
+  margin-top: 15px;
   text-align: center;
 }
 
-.video {
-  width: 100%;
-  border-radius: 10px;
-  border: 1px solid #fff;
-}
-
-.mentor {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  border: 1px solid #fff;
-  padding: 20px 40px;
-  border-radius: 20px;
-}
-
-.mentor-img {
+.instructor-image {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  margin-right: 15px;
+  width: 100px;
+  height: 100px;
 }
 
-.mentor-info h3 {
-  margin: 0;
-  font-size: 20px;
-  text-align: start;
+.pricing-section {
+  margin: 20px 0;
 }
 
-.mentor-info p {
-  margin: 5px 0;
-  text-align: start;
+.pricing-button {
+  background-color: #ff6819;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-ul {
+.features-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.features-section ul {
   list-style-type: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Gap between the columns */
 }
 
-ul li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
+.features-section li {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #fffa65;
+  font-size: 25px;
+  list-style: none;
+  font-weight: 400;
+  line-height: 30px;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 767px) {
+  .features-section {
+    padding: 0;
   }
 
-  .video-content {
-    margin-top: 30px;
+  .features-section ul {
+    grid-template-columns: 1fr; /* Stacks list items in a single column on smaller screens */
   }
 
-  .price-button {
-    width: 100%;
+  .features-section li {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 25px;
   }
 
-  .cta-button {
-    width: 200px;
-    text-align: center;
-  }
-  .highlighti {
-    font-size: 20px;
-  }
-
-  .main-heading {
-    font-size: 40px;
-  }
-  .mentor {
-    padding: 15px 10px;
-  }
-
-  .mentor-info ul li {
-    text-align: start;
-  }
-
-  .mentor-info h3 {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .cta-button {
-    width: 170px;
-    text-align: center;
+  .headerr h1 {
+    font-size: 1.5rem;
   }
 }

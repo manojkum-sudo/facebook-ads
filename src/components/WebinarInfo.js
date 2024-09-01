@@ -23,9 +23,7 @@ const WebinarInfo = () => {
             </div>
           ))}
         </div>
-        <button className="register-button">
-          Enroll Now for <span>₹ 199</span>
-        </button>
+        <button className="register-button">Enroll Now for ₹199</button>
         <p className="note">30 Days Money Back Guarantee !</p>
       </div>
     </div>

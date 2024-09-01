@@ -30,14 +30,14 @@
 .bonus-card {
   background-color: white;
   border-radius: 10px;
-  padding: 20px;
+  /* padding: 20px; */
   width: 45%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
 .bonus-header {
-  background-color: black;
+  background-color: #152450;
   color: yellow;
   padding: 10px;
   text-align: center;

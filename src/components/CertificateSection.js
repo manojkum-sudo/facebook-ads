@@ -3,27 +3,26 @@ import "./CertificateSection.css"; // Import your CSS file here
 
 const CertificateSection = () => {
   return (
-    <div className="certificate-section">
-      <div className="certificate-content">
-        <h1 className="title">
-          <span className="highlight"> Get Certified</span>
-        </h1>
-        <p className="description">
-          Complete all modules successfully and receive an Advanced certificate.
-          This certificate is:
-        </p>
-        <ul className="benefits">
-          <li>✅ Official & Verified by iJaipuria</li>
-          <li>✅ Shareable on LinkedIn and with employers</li>
-          <li>✅ Useful to enhance professional credibility</li>
-        </ul>
-        <button className="ctay-button">
-          GET INSTANT ACCESS <span className="old-price">₹6999</span> ₹1499
-        </button>
+    <div className="certification-container">
+      <h1 className="titlee">Become A Certified Google Ads Expert</h1>
+      <p className="subtitle">
+        Upon successfully completing the course, you'll receive a certification
+        from Skill to learn, a prestigious institution known for its
+        credibility. This certificate will enhance your resume and add
+        significant value to your professional qualifications.
+      </p>
+      <div className="certificate-wrapper">
+        <img
+          src="images/certificate.png"
+          alt="Certificate of Completion"
+          className="certificate-image"
+        />
       </div>
-      <div className="certificate-image">
-        <img src="/images/certificate.png" alt="Certificate of Completion" />
-      </div>
+      <p className="cta-text">
+        SEIZE THE OPPORTUNITY! ELEVATE YOUR SKILLS WITH ADVANCED GOOGLE ADS
+        MASTERY!
+      </p>
+      <button className="cta-button">Enroll Now for ₹199!</button>
     </div>
   );
 };
