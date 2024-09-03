@@ -22,7 +22,7 @@ const CertificateSection = () => {
         SEIZE THE OPPORTUNITY! ELEVATE YOUR SKILLS WITH ADVANCED FACEBOOK ADS
         MASTERY!
       </p>
-      <button className="cta-button">Enroll Now for ₹499!</button>
+      <button className="cta-button">Enroll Now for ₹399!</button>
     </div>
   );
 };
