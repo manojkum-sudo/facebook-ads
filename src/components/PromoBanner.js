@@ -22,7 +22,7 @@ const PromoBanner = () => {
         Grow Any Business using Facebook & Instagram Ads Now!
         <span className="price">
           {" "}
-          (Only Rs 199 <s>Rs 2500</s>)
+          (Only Rs 499 <s>Rs 2500</s>)
         </span>
       </button>
       <p className="register-text">

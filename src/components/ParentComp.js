@@ -88,7 +88,7 @@ const ParentComp = () => {
         <div className="offer-section">
           <div className="offer-text">
             <h2 style={{ display: "flex", gap: "10px" }}>
-              <span style={{ color: "#e74c3c" }}>Price ₹199</span>
+              <span style={{ color: "#e74c3c" }}>Price ₹499</span>
               <span style={{ textDecoration: "line-through" }}>₹2500</span>
             </h2>
             <h3>

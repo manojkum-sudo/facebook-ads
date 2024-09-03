@@ -65,7 +65,7 @@ const SectionTwo = () => {
         </h1>
       </div>
       <div style={{ textAlign: "center" }}>
-        <button className="sectionBtn">ENROLL NOW : ₹199</button>
+        <button className="sectionBtn">ENROLL NOW : ₹499</button>
       </div>
     </>
   );

@@ -37,7 +37,7 @@ const HeaderPage = () => {
           Transform Your Career, Unlock High-Paying Jobs, Business Growth, or
           Freelance Success
         </h2>
-        <button className="pricing-button">Get Instant Access At ₹199!</button>
+        <button className="pricing-button">Get Instant Access At ₹499!</button>
       </section>
       <section className="features-section">
         <ul>

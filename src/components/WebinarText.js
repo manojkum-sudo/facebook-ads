@@ -66,7 +66,7 @@ const WebinarText = () => {
       <h2 className="footer-heading">
         ELEVATE YOUR ONLINE PRESENCE WITH ADVANCED GOOGLE ADS STRATEGIES TODAY!
       </h2>
-      <button className="price-button">Enroll Now for ₹199!</button>
+      <button className="price-button">Enroll Now for ₹499!</button>
     </div>
   );
 };
