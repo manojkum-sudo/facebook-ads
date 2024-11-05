@@ -46,7 +46,7 @@ const HeaderPage = () => {
             required.
           </li>
           <li>
-            ✅ <span style={{ color: "#fff" }}>Increase your</span>
+            ✅ <span style={{ color: "#fff" }}>Increase your </span>
             E-Commerce store ROI by 7x with proven ad strategies
           </li>
           <li>
